@@ -92,6 +92,9 @@ export default function GeossitioDetalhe() {
             )}
           </div>
 
+          {/* Video */}
+          <VideoPlayer videoUrl={site.video_url} />
+
           {/* Knowledge Levels */}
           <div className="space-y-4 mb-12">
             <LevelSection
