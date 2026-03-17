@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { ArrowLeft, MapPin, Clock, Star, Loader2 } from "lucide-react";
 import LevelSection from "../components/geossitios/LevelSection";
 import ImageGallery from "../components/geossitios/ImageGallery";
+import VideoPlayer from "../components/geossitios/VideoPlayer";
 
 export default function GeossitioDetalhe() {
   const urlParams = new URLSearchParams(window.location.search);
