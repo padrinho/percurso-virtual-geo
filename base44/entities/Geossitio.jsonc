@@ -1,0 +1,80 @@
+{
+  "name": "Geossitio",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "hero_image": {
+      "type": "string"
+    },
+    "card_image": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "epoch": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string",
+      "description": "URL of the embedded video"
+    },
+    "level_basic_title": {
+      "type": "string"
+    },
+    "level_basic_text": {
+      "type": "string"
+    },
+    "level_basic_didatica": {
+      "type": "string"
+    },
+    "level_intermediate_title": {
+      "type": "string"
+    },
+    "level_intermediate_text": {
+      "type": "string"
+    },
+    "level_intermediate_didatica": {
+      "type": "string"
+    },
+    "level_advanced_title": {
+      "type": "string"
+    },
+    "level_advanced_text": {
+      "type": "string"
+    },
+    "level_advanced_didatica": {
+      "type": "string"
+    },
+    "curiosidade": {
+      "type": "string"
+    },
+    "gallery_images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "title",
+    "slug"
+  ]
+}
